@@ -1,0 +1,28 @@
+# === Entornos y secretos ===
+.env
+.env.local
+.env.*.local
+!*.env.example
+
+# === Python / Backend ===
+backend/venv/
+backend/__pycache__/
+backend/**/__pycache__/
+*.pyc
+.pytest_cache/
+
+# === Node / Frontend ===
+frontend/node_modules/
+frontend/.next/
+frontend/out/
+frontend/.turbo/
+npm-debug.log*
+
+# === Base de datos local ===
+*.sqlite3
+pgdata/
+
+# === Sistema / Editor ===
+.DS_Store
+.vscode/
+.idea/
